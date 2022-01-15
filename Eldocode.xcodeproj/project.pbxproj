@@ -218,7 +218,7 @@
 			);
 			mainGroup = CEBF2914267C89B3006A3286;
 			packageReferences = (
-				A50A3D5A267E1CE200F73D80 /* RemoteSwiftPackageReference */,
+				A50A3D5A267E1CE200F73D80 /* XCRemoteSwiftPackageReference "CarBode-Barcode-Scanner-For-SwiftUI" */,
 			);
 			productRefGroup = CEBF291E267C89B3006A3286 /* Products */;
 			projectDirPath = "";
@@ -457,7 +457,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		A50A3D5A267E1CE200F73D80 /* RemoteSwiftPackageReference */ = {
+		A50A3D5A267E1CE200F73D80 /* XCRemoteSwiftPackageReference "CarBode-Barcode-Scanner-For-SwiftUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/heart/CarBode-Barcode-Scanner-For-SwiftUI";
 			requirement = {

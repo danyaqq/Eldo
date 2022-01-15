@@ -74,8 +74,11 @@ struct NotEmptyCartView: View{
         ZStack{
         ScrollView(.vertical, showsIndicators: false, content: {
             VStack(spacing: 25){
+               
                 ForEach(productDB.productDB, id:\.self){ card in
+                    if card.isInvalidated{
                     CartCardView(productDBModel: card.self, counter: $counter).environmentObject(productDB)
+                    }
             }
                 VStack(alignment: .leading, spacing: 16){
                     VStack(alignment: .leading, spacing: 2){
